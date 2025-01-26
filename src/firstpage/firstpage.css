@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Set the background image */
+.firstpage {
+    background: url('https://cdn.mos.cms.futurecdn.net/rDJegQJaCyGaYysj2g5XWY-650-80.jpg.webp') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh; /* Set the height to the full viewport height */
+    position: relative;
+    background-position: fixed;
+}
+
+body {
+   position: relative;
+    font-family: 'Roboto', sans-serif;
+    background-color: #141414;
+    color: white;
+    margin: 0; /* Ensure no margin on all sides */
+    padding: 0; 
+}
+
+ 
+
+.header {
+    display: flex;
+    justify-content: space-between;
+   
+   
+}
+
+.header img {
+    width: 150px;
+    color: red;
+    margin-left: 80px;
+    margin-top: 20px;
+    filter: none; /* Remove existing filter */
+    color: #e50914;
+}
+ .header button {
+    
+    background-color: #e50914;
+    color: white;
+    border: none;
+    margin-right: 80px;
+    padding: 10px 20px;
+    margin-top: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.3s;
+ }
+    .main {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 10rem;
+    }
+    .main p {
+        font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+        font-size: 4rem;
+        font-weight: 700;
+        line-height: 125%;
+       text-align: center;
+       margin-bottom: 0.5rem;
+    }
+    .main h4 {
+        font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+        font-size: 1.7rem;
+        font-weight: 600;
+        line-height: 125%;
+       text-align: center;
+       margin-bottom: 1rem;
+    }
+    .main button {
+        background-color: #e50914;
+        color: white;
+        border: none;
+       width: 21rem;
+       height: 4rem;
+        border-radius: 5px;
+       margin-top: 1rem;
+        font-size: 2rem;
+        font-weight: 600;
+        margin-left: 2rem;
+        
+       
+    }
