@@ -11,7 +11,7 @@ function App() {
 
   // Fetch movies from the API when the component mounts
   useEffect(() => {
-    fetch('https://moviebackend-lo5u.vercel.app/')
+    fetch('https://moviebackend-lo5u.vercel.app/getmovies')
       .then(response => response.json())
       .then(data => setMovies(data))
       .catch(error => console.error('Error fetching movies:', error));
