@@ -7,9 +7,9 @@ export const SubmitMovie = () => {
         <form   enctype="multipart/form-data"   className='movieform' action='https://moviebackend-lo5u.vercel.app/movies' method='POST'>
             <input type='text' name="title" placeholder='title' />
             
-            <input type='text' name="genre" placeholder='genre'/>
-           >
-            <button>Submit</button>
+            <textarea type='text' name="genre" placeholder='cotent'/>
+           
+            <button>+</button>
             </form>
     </div>
   )
