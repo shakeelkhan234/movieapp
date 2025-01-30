@@ -45,7 +45,7 @@ body {
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 10px 14px 8px rgba(0, 0, 0, 0.3);
-    width: 300px;
+    width: 800px;
 }
 
 .movieform input {
@@ -98,7 +98,6 @@ body {
 }
 #formtitle {
     margin-left: 20px;
-    margin-top: 400px;
     display: inline-block;
 }
 .submitmovie {
