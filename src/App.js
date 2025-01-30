@@ -17,7 +17,8 @@ function App() {
       .catch(error => console.error('Error fetching movies:', error));
   }, []);  // 
   return (
-    <div>
+   <div>
+    <SubmitMovie />
      
 
       <div className='secondpage'>
@@ -25,7 +26,7 @@ function App() {
         <Card key={index} imageUrl={movie.image} title={movie.title} />
       ))}
 
-       <SubmitMovie />
+       
       
 
       </div>
