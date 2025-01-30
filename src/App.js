@@ -17,7 +17,7 @@ function App() {
       .catch(error => console.error('Error fetching movies:', error));
   }, []);  // 
   return (
-   <div>
+   <>
     <SubmitMovie />
      
 
@@ -30,7 +30,7 @@ function App() {
       
 
       </div>
-    </div>
+    </>
   );
 }
 
