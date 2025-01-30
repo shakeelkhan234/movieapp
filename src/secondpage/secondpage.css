@@ -72,7 +72,7 @@ body {
 
 .movieform button {
     position:absolute;
-    bottom:0;
+    bottom:-10px;
     right:0;
     width: 30px;
     padding: 0.5rem;
