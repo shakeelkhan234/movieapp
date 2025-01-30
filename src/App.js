@@ -18,10 +18,7 @@ function App() {
   }, []);  // 
   return (
     <div>
-      // <div className='firstpage'>
-      //   <Header />
-      //   <Main />
-      // </div>
+     
 
       <div className='secondpage'>
       {movies.map((movie,index) => (
